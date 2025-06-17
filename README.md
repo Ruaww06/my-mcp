@@ -10,5 +10,7 @@
 因为我主要是为DeepSeek制作的，并不打算修改使用的模型，若你想更改模型，请查看源码"llm"目录中的"chat_deepseek.py"文件  
 使用时需要提供两个文件的地址，请在"process_mcp"目录里的"agent.py"文件中更改为你的文件路径  
 1. **mcp_servers_config.json**  
-2. **log_messages.log**  
+2. **log_messages.log**
+
+
 若你想使用流式传输/连续对话，请在"main.py"文件中，将`stream`的值改为`True`
