@@ -21,7 +21,7 @@ async def main():
     logger.debug("Logging configured at DEBUG level.")
 
     user_query = None
-    stream = True 
+    stream = False # default 
     if stream:
         logger.debug("Interactive mode enabled.")
         agent = await MCPAgent.create(
